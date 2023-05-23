@@ -1,0 +1,36 @@
+ALGORITHM word number
+VAR
+st: STRING                                               // st : paragraph
+nl: INTEGER                                                      longeur de paragraph
+nw: INTEGER                                                // nw: nombre de mot
+    set_declarations                                             // nv : nbre de voyelle
+BEGIN
+Write('write your paragraph');
+read(st);
+nw:0
+WHILE st(i)<> "." DO                                     
+   
+ FOR i FROM 0 TO  st.length-1   DO
+  IF st(i)=(" ") THEN
+      nw=nw+1      
+ END_IF
+ 
+END_FOR
+write('votre paragraphe contien',nw,'mot')
+nl = st.length-1 
+FOR i FROM 0 TO st.length-1 DO 
+IF i in [a,e,u,i,o,A,E,Y,I,O]THEN
+    nv=nv+1
+    
+END_IF
+    set_instructions
+END_FOR    
+END
+VAR
+   st: STRING
+   
+BEGIN
+
+  
+ 
+  
